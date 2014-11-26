@@ -1,0 +1,27 @@
+{
+  "name": "quickreq",
+  "version": "1.0.0",
+  "description": "make http and https requests quickly",
+  "main": "quickreq.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxe/quickreq"
+  },
+  "keywords": [
+    "request",
+    "http",
+    "proxy"
+  ],
+  "author": "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lxe/quickreq/issues"
+  },
+  "homepage": "https://github.com/lxe/quickreq",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
