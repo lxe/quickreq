@@ -4,7 +4,7 @@
   "description": "make http and https requests quickly",
   "main": "quickreq.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/lxe/quickreq",
   "devDependencies": {
+    "getport": "^0.1.0",
+    "tap-spec": "^2.1.0",
     "tape": "^3.0.3"
   }
 }
